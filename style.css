@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: gold
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.contentnav{
+    display: flex;
+    gap: 250px;
+    margin-left: 250px;
+    font-size: 40px;
+}
