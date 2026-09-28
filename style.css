@@ -1,17 +1,27 @@
-body{
+.body{
+    color: #ddbb81;
     background-color: black;
-    color: gold
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav{
+.logo{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.headings{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    font-size: 40px;
+    padding: 0 20px;
+    font-weight: bold;
+    background: linear-gradient(to right,#000000, #c89116)
 }
 
-.contentnav{
-    display: flex;
-    gap: 250px;
-    margin-left: 250px;
-    font-size: 40px;
+.welcome{
+    text-align: center;
+    border-style: dotted;
+    
 }
