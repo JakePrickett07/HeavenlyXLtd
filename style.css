@@ -25,3 +25,27 @@
     border-style: dotted;
     
 }
+
+.bigsection{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+
+.sectionA{
+    border-style: solid;
+    text-align: center;
+    padding: 30px;
+}
+
+.sectionB{
+    border-style: solid;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.contactussection{
+    text-align: center;
+    border-style: solid;
+}
