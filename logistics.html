@@ -1,69 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logistics</title>
+    <meta name="description" content="Explore HeavenlyX Ltd delivery, freight, pallet transport and warehousing services.">
+    <title>Logistics Services | HeavenlyX Ltd</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-    body{
-        background-color: black;
-        color: #ddbb81;
-        font-family: Arial, Helvetica, sans-serif
-    }
-
-.logistic {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        justify-content: center;
-    }
-
-.contactus{
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
-    display: flex;
-}
-</style>
-
 <body>
-    <div class="headings">
-        <h1 style="font-size: 40px;">HeavenlyX</h1>
-        <a href="index.html">Home Page</a>
-        <a href="eCommerce.html">eCommerce</a>
-        <img style="height: 200px;" src="HeavenlyX LTD.png">
-    </div>
-    <nav class="navigation">
-        <a href="contactus.html">Contact Us</a>
+
+    <header class="headings">
+        <h1>HeavenlyX Ltd</h1>
+        <img src="HeavenlyX LTD.png" alt="HeavenlyX Ltd logo">
+    </header>
+
+    <nav class="navigation" aria-label="Main navigation">
+        <a href="index.html">Home</a>
         <a href="eCommerce.html">eCommerce Services</a>
-        <a href="index.html">Home Page</a>
+        <a href="logistics.html" aria-current="page">Logistics Services</a>
+        <a href="contactus.html">Contact Us</a>
     </nav>
-    <hr>
-    <p style="font-size: 30px; display: flex; justify-content: center; text-align: center;">We provide a wide range of logisic services to <br>businesses and clients who are interested.</p>
 
+    <main>
+        <section class="page-intro">
+            <h2>Our Logistics Services</h2>
 
-    <div class="logistic">
-        <img src="HeavenlyX LTD (2).png">
-        <ol>
-            <li>Same-Day Deliveries</li>
-            <li>Next-Day Deliveries</li>
-            <li>Freight Transport</li>
-            <li>Collection & Deliveries</li>
-            <li>Pallet Transport</li>
-            <li>Warehousing & Fulfilment</li>
-        </ol>
-    </div>
+            <p>
+                We provide a range of logistics services to businesses
+                and clients looking for reliable transport and delivery
+                solutions.
+            </p>
+        </section>
 
-    <p style="font-size: 30px; display: flex; justify-content: center; text-align: center;">HeavenlyX Ltd Combines commerce and logistics to make buying, selling, and moving goods and products more convenient.</p>
+        <section class="service-detail">
+            <img
+                src="HeavenlyX LTD (2).png"
+                alt="Freight transport and shipping containers"
+            >
 
-    <hr>
+            <div class="service-information">
+                <h2>What We Offer</h2>
 
-    <div class="contactus">
-    <p style="font-size: 45px;">Any Questions? Don't hesitate to contact us!</p>
-        <button>Contact Us</button>
-    </div>
+                <ol>
+                    <li>Same-Day Deliveries</li>
+                    <li>Next-Day Deliveries</li>
+                    <li>Freight Transport</li>
+                    <li>Collection amp; Deliveries</li>
+                    <li>Pallet Transport</li>
+                    <li>Warehousing amp; Fulfilment</li>
+                </ol>
+
+                <a class="button" href="contactus.html">
+                    Enquire About Logistics
+                </a>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>Commerce and Logistics, Connected</h2>
+
+            <p>
+                HeavenlyX Ltd combines commerce and logistics to make
+                buying, selling and moving goods and products more
+                convenient.
+            </p>
+
+            <a class="button" href="eCommerce.html">
+                Explore eCommerce
+            </a>
+        </section>
+
+        <section class="contactussection">
+            <h2>Any Questions?</h2>
+
+            <p>Don't hesitate to get in touch with our team.</p>
+
+            <a class="button" href="contactus.html">Contact Us</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>HeavenlyX Ltd. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
