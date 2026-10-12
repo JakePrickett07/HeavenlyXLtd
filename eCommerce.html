@@ -1,77 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eCommerce Services</title>
+    <meta name="description" content="Discover HeavenlyX Ltd online retail, product sourcing, order fulfilment and shipping services.">
+    <title>eCommerce Services | HeavenlyX Ltd</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <style>
-        body{
-        background-color: black;
-        color: #ddbb81;
-        font-family: Arial, Helvetica, sans-serif
-    }
 
-.headings{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    font-weight: bold;
-    background: linear-gradient(to right,#000000, #c89116);
-}
+    <header class="headings">
+        <h1>HeavenlyX Ltd</h1>
+        <img src="HeavenlyX LTD.png" alt="HeavenlyX Ltd logo">
+    </header>
 
-.eCommerce{
-    display: flex;
-    justify-content: center;
-}
-.contactus{
-    justify-content: center;
-    text-align: center;
+    <nav class="navigation" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="eCommerce.html" aria-current="page">eCommerce Services</a>
+        <a href="logistics.html">Logistics Services</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
 
-.navigating{
-    display: flex;
-    text-align: center;
-    font-size: 30px;
-}
+    <main>
+        <section class="page-intro">
+            <h2>Discover Our eCommerce Services</h2>
 
-}
-    </style>
+            <p>
+                Discover products and services online with a simple
+                and convenient shopping experience!
+            </p>
+        </section>
 
-    <div class="headings">
-    <h1>HeavenlyX Ltd</h1>
-    <a href="index.html">Home</a>
-    <a href="logistics.html">Logistic Services</a>
-    <img src="HeavenlyX LTD.png" width="200" height="150">
-    </div>
+        <section class="service-detail">
+            <img
+                src="HeavenlyX LTD (1).png"
+                alt="Online shopping and digital eCommerce"
+            >
 
-    <div class="navigating">
-        <a href="contactus.html">Contact us</a>
-        <a href="index.html">Home Page</a>
-        <a href="logistics.html">Logistic Services</a>
-    </div>
+            <div class="service-information">
+                <h2>Our Services</h2>
 
+                <ol>
+                    <li>Online Retail Services</li>
+                    <li>Product Sourcing</li>
+                    <li>Wholesale Services</li>
+                    <li>Order Fulfilment</li>
+                    <li>UK and International Shipping</li>
+                </ol>
 
+                <a class="button" href="contactus.html">
+                    Enquire About Our Services
+                </a>
+            </div>
+        </section>
 
-    <hr>
-      <p style="font-size: 30px; display: flex; justify-content: center; text-align: center;">Discover products and services online with a simple and <br>convenient shopping experience!</p>
+        <section class="info-section">
+            <h2>More Than Just Shopping</h2>
 
+            <p>
+                Our aim is to connect eCommerce and logistics to help
+                make buying, selling and delivering goods more convenient.
+            </p>
 
-    <div class="eCommerce">
-        <img src="HeavenlyX LTD (1).png">
-        <ol>
-        <li>Online Retail Services</li>
-        <li>Product Sourcing</li>
-        <li>Whole Sales</li>
-        <li>Order Fulfilment</li>
-        <li>UK and International Shipping</li>
-        </ol>
-    </div>
-    <hr>
-    <div class="contactus">
-    <p style="font-size: 45px;">Any Questions? Don't hesitate to contact us!</p>
-        <a href="mailto:heavenlyxltd@gmail.com">Email Us</a>
-    </div>
+            <a class="button" href="logistics.html">
+                Explore Logistics
+            </a>
+        </section>
+
+        <section class="contactussection">
+            <h2>Any Questions?</h2>
+
+            <p>
+                Contact us if you would like to learn more about our
+                eCommerce services.
+            </p>
+
+            <a class="button" href="mailto:heavenlyxltd@gmail.com">
+                Email Us
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>HeavenlyX Ltd. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
