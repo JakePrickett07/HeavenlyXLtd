@@ -63,7 +63,9 @@ hr {
 }
 
 
-/* HEADER */
+/* ========================================
+   HEADER
+   ======================================== */
 
 .headings {
     display: flex;
@@ -93,7 +95,9 @@ hr {
 }
 
 
-/* NAVIGATION */
+/* ========================================
+   NAVIGATION
+   ======================================== */
 
 .navigation {
     display: flex;
@@ -126,7 +130,9 @@ hr {
 }
 
 
-/* HOMEPAGE HERO */
+/* ========================================
+   HOMEPAGE HERO
+   ======================================== */
 
 .hero {
     text-align: center;
@@ -144,7 +150,15 @@ hr {
     font-size: clamp(18px, 2.5vw, 28px);
 }
 
-/* HOMEPAGE LOGO */
+
+/* ========================================
+   HOMEPAGE LOGO - WHITE LINE FIX
+   ======================================== */
+
+/*
+   The container clips the image edges to help
+   hide the thin white line visible in the logo.
+*/
 
 .logo-container {
     width: min(280px, 75%);
@@ -154,18 +168,25 @@ hr {
 
 .logo {
     display: block;
+
     width: calc(100% + 3px);
     max-width: none;
     height: auto;
+
     margin: 0;
+    padding: 0;
+
     border: none;
     outline: none;
     box-shadow: none;
+
     transform: translate(-2px, -2px);
 }
 
 
-/* WELCOME SECTION */
+/* ========================================
+   WELCOME SECTION
+   ======================================== */
 
 .welcome-section {
     max-width: 1000px;
@@ -191,7 +212,9 @@ hr {
 }
 
 
-/* HOMEPAGE SERVICE CARDS */
+/* ========================================
+   HOMEPAGE SERVICE CARDS
+   ======================================== */
 
 .bigsection {
     display: flex;
@@ -235,7 +258,9 @@ hr {
 }
 
 
-/* SHARED BUTTONS */
+/* ========================================
+   SHARED BUTTONS
+   ======================================== */
 
 .button {
     display: inline-block;
@@ -275,7 +300,9 @@ hr {
 }
 
 
-/* PAGE INTRODUCTIONS */
+/* ========================================
+   PAGE INTRODUCTIONS
+   ======================================== */
 
 .page-intro {
     max-width: 950px;
@@ -297,7 +324,9 @@ hr {
 }
 
 
-/* LOGISTICS AND ECOMMERCE DETAIL SECTIONS */
+/* ========================================
+   LOGISTICS AND ECOMMERCE DETAIL SECTIONS
+   ======================================== */
 
 .service-detail {
     display: flex;
@@ -341,7 +370,9 @@ hr {
 }
 
 
-/* INFORMATION SECTIONS */
+/* ========================================
+   INFORMATION SECTIONS
+   ======================================== */
 
 .info-section {
     max-width: 950px;
@@ -364,7 +395,9 @@ hr {
 }
 
 
-/* CONTACT SECTION */
+/* ========================================
+   CONTACT SECTION
+   ======================================== */
 
 .contactussection {
     margin: 45px auto;
@@ -416,7 +449,9 @@ hr {
 }
 
 
-/* FOOTER */
+/* ========================================
+   FOOTER
+   ======================================== */
 
 .footer {
     margin-top: 50px;
@@ -441,7 +476,7 @@ hr {
 
 @media (max-width: 768px) {
 
-    /* Header */
+    /* HEADER */
 
     .headings {
         justify-content: center;
@@ -462,7 +497,7 @@ hr {
     }
 
 
-    /* Navigation */
+    /* NAVIGATION */
 
     .navigation {
         justify-content: center;
@@ -476,7 +511,7 @@ hr {
     }
 
 
-    /* Homepage */
+    /* HOMEPAGE */
 
     .hero {
         padding: 24px 16px 8px;
@@ -490,7 +525,9 @@ hr {
         font-size: 20px;
     }
 
-    .logo {
+    /* UPDATED MOBILE LOGO CONTAINER */
+
+    .logo-container {
         width: min(240px, 75%);
     }
 
@@ -521,7 +558,7 @@ hr {
     }
 
 
-    /* Service pages */
+    /* SERVICE PAGES */
 
     .page-intro {
         margin: 28px auto;
@@ -557,7 +594,7 @@ hr {
     }
 
 
-    /* Contact */
+    /* CONTACT */
 
     .contact-panel {
         grid-template-columns: 1fr;
