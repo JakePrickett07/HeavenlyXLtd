@@ -144,10 +144,24 @@ hr {
     font-size: clamp(18px, 2.5vw, 28px);
 }
 
-.logo {
+/* HOMEPAGE LOGO */
+
+.logo-container {
     width: min(280px, 75%);
-    height: auto;
     margin: 24px auto;
+    overflow: hidden;
+}
+
+.logo {
+    display: block;
+    width: calc(100% + 3px);
+    max-width: none;
+    height: auto;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    transform: translate(-2px, -2px);
 }
 
 
