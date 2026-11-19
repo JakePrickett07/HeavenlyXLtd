@@ -698,8 +698,8 @@ hr {
 }
 
 .service-box {
-    background-color: #cfd5dd;
-    color: #000000;
+    background-color: black;
+    color: #ddbb81;
 
     padding: 28px 24px;
     border-radius: 18px;
